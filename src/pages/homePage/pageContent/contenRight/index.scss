@@ -1,0 +1,17 @@
+.page-content-right {
+    background: #fff;
+    flex: auto;
+    overflow-y: auto;
+    &-bread {
+        padding-left: 15px;
+        min-height: 30px;
+        border-bottom: 1px solid #e8e8e8;
+        border-top: 1px solid #e8e8e8;
+        .ant-breadcrumb {
+            line-height: 30px;
+        }
+        .ant-breadcrumb-link {
+            cursor: pointer !important;
+        }
+    }
+}

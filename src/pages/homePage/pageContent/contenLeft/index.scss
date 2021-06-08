@@ -1,0 +1,8 @@
+.page-content-left {
+  max-width: 256px;
+  overflow-y: auto;
+  min-width: 180px;
+  .ant-menu {
+    height: 100%;
+  }
+}
