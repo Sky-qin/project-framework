@@ -11,9 +11,7 @@ class ContentLeft extends React.Component {
     };
   }
 
-  componentDidMount() {
-    console.log("process.env", process.env)
-  }
+  componentDidMount() {}
 
   handleClickBread = (currnt) => {
     const { dispatch } = this.props
@@ -33,7 +31,6 @@ class ContentLeft extends React.Component {
 
   render() {
     const { breadData, iframeRouter } = this.props.homePage;
-    console.log("homePage", this.props.homePage)
     return (
       <div className="page-content-right">
         {breadData && breadData.length > 0 && (
